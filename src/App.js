@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HolaMundo from './HolaMundo.js';
+import Tarjeta from './Tarjeta.js';
+import Contador from './Contador.js';
+import ListaTareas from './ListaTareas.js';
+import Formulario from './Formulario.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HolaMundo />
+      <Tarjeta 
+        nombre="Juan" 
+        apellido="Pérez" 
+        profesion="Desarrollador" 
+        imagen="https://via.placeholder.com/100"
+      />
+      <Contador />
+      <ListaTareas />
+      <Formulario />
     </div>
   );
 }

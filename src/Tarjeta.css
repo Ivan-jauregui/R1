@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.tarjeta {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px auto;
+  }
+  
+  .tarjeta img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,12 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.hola-mundo {
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
